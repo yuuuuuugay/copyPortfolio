@@ -1,0 +1,117 @@
+/* プロフィール */
+.myNameEn{
+    font-size: 192px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -10px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+.myNameJa{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin-bottom: 48px;
+    color: #1E1E21;
+    opacity: 0.7;
+}
+.homePicture{
+    height: 1000px;
+    margin-bottom: 64px;
+}
+.homePicture img{
+    height: 100%;
+}
+
+
+
+/* 私について */
+.about{
+    padding-bottom: 64px;
+    border-bottom: 2px solid #1E1E21;
+}
+.aboutLinksResponsive{
+    display: none;
+}
+.aboutText{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -4px;
+    border-right: 2px solid #1E1E21;
+    padding-right: 64px;
+    margin-bottom: 64px;
+}
+.aboutLink{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin-left: 64px;
+    margin-bottom: 300px;
+}
+.icon{
+    margin-left: 64px;
+}
+.fa-brands{
+    height: 48px;
+    width: 48px;
+    color: #ffffff;
+    line-height: 48px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+
+
+/* 私のできること */
+.can{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.canLink{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1px;
+    padding-right: 64px;
+    border-right: 2px solid #1E1E21;
+    white-space: nowrap;
+}
+.canTextFirst{
+    padding-bottom: 64px;
+    border-bottom: 2px solid #1E1E21;
+    margin-left: 64px;
+}
+.canTextLast{
+    margin-top: 64px;
+}
+.canText{
+    padding-right: 64px;
+    border-right: 2px solid #1E1E21;
+    padding-left: 64px;
+}
+.canText:nth-child(2n){
+    padding-right: 0;
+}
+.canTextFirst .canText:first-child{
+    padding-left: 0;
+}
+.canText:nth-child(2n){
+    border-right: none;
+}
+.canTextTittle{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+}
+.canTextText{
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 0;
+}

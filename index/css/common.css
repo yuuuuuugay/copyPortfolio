@@ -1,0 +1,156 @@
+/* 初期設定 */
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.marginHorizontal{
+    margin-left: 64px;
+    margin-right: 64px;
+}
+.displayFlex{
+    display: flex;
+}
+.blacArrowPicture{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+/* ナビゲーション */
+.navMenu{
+    position: absolute;
+    top: 48px;
+    right: 48px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 16px 24px;
+    border-radius: 500px;
+}
+.nav{
+    position: absolute;
+    top: -100vh;
+    left: 0;
+}
+.navScreen{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #000000;
+}
+.navClose{
+    position: absolute;
+    top: 48px;
+    right: 48px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 16px 24px;
+    border-radius: 500px;
+}
+.navLinks{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navLink{
+    display: block;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.navMenu a::before{
+    content: "→";
+    display:inline-block;
+    font-size: 20px;
+    transform: translate(0,-100%) rotate(45deg);
+}
+
+
+
+/* メイン画面 */
+.main{
+    width: 100%;
+}
+
+
+
+/* フッター */
+.footer{
+    background-color: #000000;
+    text-align: center;
+    padding-top: 157px;
+    padding-bottom: 138px;
+}
+.footerText{
+    font-size: 192px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -10px;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+.contact{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 500px;
+    margin-bottom: 140px;
+}
+.footerLink{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: #ffffff;
+    margin-left: 48px;
+}
+
+
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 480px) {
+    .navMenuOpen{
+        top: 30px;
+        right: 30px;
+    }
+    .navMenu a{
+        font-size: 30px;
+    }
+    .navMenu a::before{
+        content: "→";
+        display:inline-block;
+        font-size: 20px;
+        transform: translate(0,-30%) rotate(45deg);
+    }
+    .footer .nav a{
+        width: 100%;
+        margin-left: 0;
+    }
+}

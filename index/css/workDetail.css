@@ -1,0 +1,135 @@
+.workDetailTitle{
+    font-size: 192px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -10px;
+}
+.workDetailSubTitle{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2px;
+    margin-right: 64px;
+}
+.workDetailDetailArea{
+    height: 69px;
+    width: 500px;
+    position: relative;
+    margin-bottom: 2px;
+    border-bottom: 2px solid #000000;
+}
+.workDetailDetailTitle{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.workDetailDetailText{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.workDetailPicture{
+    height: 1200px;
+    width: 100%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.workDetail{
+    margin-bottom: 64px;
+}
+.theWorkLink{
+    position: relative;
+    white-space: nowrap;
+    padding-right: 64px;
+    border-right: 2px solid #000000;
+}
+.theWorkLinkText{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1px;
+}
+.theWorks{
+    margin-left: 64px;
+}
+.theWorkTitle{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+.theWorkTitle:first-child{
+    margin-top: 0;
+}
+.theWorkSubTitle{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+}
+.theWorkText{
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0;
+    padding-bottom: 64px;
+    border-bottom: 2px solid #000000;
+}
+.theWorkText:last-child{
+    padding-bottom: 0;
+    border: none;
+}
+.galleryTitle{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin-bottom: 64px;
+}
+.galleryPicture{
+    width: 100%;
+}
+
+
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 480px) {
+    .diplayFlex{
+        display: block;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .smallTitle{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        width: calc(100vw - 40px);
+    }
+    .linkCover{
+        width: 100vw;
+        border-right: none;
+    }
+    .singleWork{
+        width: calc(100vw - 40px);
+        margin: 20px 0;
+    }
+    .singleWorkText h3{
+        font-size: 25px;
+    }
+}

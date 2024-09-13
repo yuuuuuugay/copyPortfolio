@@ -1,0 +1,46 @@
+.aboutPicture{
+    width: 50vw;
+}
+.aboutPicture img{
+    width: 100%;
+}
+.aboutText{
+    width: calc(50vw - 96px);
+    margin: 64px 32px 0 64px;
+}
+.tittle{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+}
+.myName{
+    font-size: 192px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -10px;
+    margin-bottom: 8px;
+}
+.explanation{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+}
+.text{
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 0;
+    padding-bottom: 64px;
+    border-bottom: 2px solid #1E1E21;
+}
+.subTittle{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -4px;
+    margin-top: 64px;
+    margin-bottom: 30px;
+}

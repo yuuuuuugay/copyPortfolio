@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <script src="../js/menu.js" defer></script>
+  <title>コンタクト画面</title>
+</head>
+<body>
+  <button class="navMenu" id="navMenu">Menu</button>
+  <div class="nav" id="nav">
+    <div class="navScreen">
+      <button class="navClose" id="navClose">Close</button>
+      <div class="navLinks">
+        <a href="./home.html" class="navLink">HOME</a>
+        <a href="./about.html" class="navLink">ABOUT</a>
+        <a href="./work.html" class="navLink">WORK</a>
+        <a href="./contact.html" class="navLink">CONTACT</a>
+      </div>
+    </div>
+  </div>
+  <main class="main displayFlex">
+    <div class="contactPicture">
+      <img src="../img/contactPicture.png" alt="写真">
+    </div>
+    <div class="mainText marginHorizontal">
+      <h1 class="tittle">お問い合わせ</h1>
+      <h2 class="text">Let’s get<br>in touch</h2>
+      <form action="#" method="post">
+        <input type="text" placeholder="Name" class="name">
+        <input type="text" placeholder="Email" class="email">
+        <textarea placeholder="Message" class="message" name="message"></textarea>
+        <input type="submit" value="Send" class="send">
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <h2 class="footerText">Let’s talk</h2>
+    <a href="./contact.html" class="contact">Contact</a>
+    <div class="footerNav">
+      <a href="./home.html" class="footerLink">Home</a>
+      <a href="./about.html" class="footerLink">About</a>
+      <a href="./work.html" class="footerLink">Work</a>
+      <a href="./contact.html" class="footerLink">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
